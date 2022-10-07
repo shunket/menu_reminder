@@ -1,6 +1,7 @@
 import json
 from datetime import date
 import requests
+import os
 
 
 WEBHOOK = os.environ.get('WECHATWORK_WEBHOOK')
